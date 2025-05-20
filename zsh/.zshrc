@@ -38,8 +38,9 @@ function x-install_swift_script() {
 }
 
 # 路径
-export PATH="$HOME/.local/bin:$PATH"
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+export PATH="$HOME/bin/bin:$HOME/.local/bin:$PATH"
 
 # 美化
+
 eval "$(starship init zsh)"
