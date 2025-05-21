@@ -1,7 +1,6 @@
 {
   "extractor": {
     "base-directory": "~/Downloads"
-    }
   },
   "downloader": {
     "part": true,
